@@ -1,6 +1,10 @@
 # hello-world
 
 **************************************************************************
-In this branch I could make a copy of master branch but I'm going to edit 
-and change this version.
-The testing world discover me, that's the true. I love Python <3 
+Basic hello-world examples for several programming languages and tools
+ * gradle
+ * groovy
+ * rust
+ -- flyway
+ -- kafka
+ 
