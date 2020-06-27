@@ -1,0 +1,15 @@
+task hello(type: HelloTask)
+
+class HelloTask extends DefaultTask {
+    String greeting = "This is default greeting"
+    @TaskAction
+    def greet(){
+        println greeting
+    }
+}
+
+task oldHello(type: HelloTask)
+
+task newHello(type: HelloTask){
+    greeting = 'This is not default greeting!'
+}
